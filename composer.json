@@ -13,7 +13,7 @@
             "email": "1121190623@qq.com"
         }
     ],
-    "minimum-stability": "1.0",
+    "minimum-stability": "beta",
     "require": {},
     "extra": {
         "laravel": {
