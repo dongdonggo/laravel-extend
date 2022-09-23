@@ -1,0 +1,25 @@
+{
+    "name": "dongdonggo/laravel-extend",
+    "description": "devevelop-extend",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Dongdonggo\\LaravelExtend\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "dongdong",
+            "email": "1121190623@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dongdonggo\\LaravelExtend\\Providers\\ValidatorMacroServiceProvider"
+            ]
+        }
+    }
+}
